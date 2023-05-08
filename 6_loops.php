@@ -7,9 +7,7 @@ while($x <= 5) {
   echo "The number is: $x <br>";
   $x++;
 }
-?>
 
-<?php
 
 $k = 3;
 while($k<31){
@@ -17,20 +15,17 @@ while($k<31){
     echo $k;echo "<br>";
     $k+=3;
 }
-?>
 
-<!-- for loops  -->
+// <!-- for loops  -->
 
-<?php
+
 for($m=1; $m<=10; $m+=1){
     echo "the value of m is $m"; echo "<br>";
 }
 
-?>
 
-<!-- do while loops  -->
+// <!-- do while loops  -->
 
-<?php
 
 $j = 10;
 
@@ -39,11 +34,9 @@ do{
     $j+=1;
 }while($j<5);
 
-?>
 
-<!-- for each loops  -->
+// <!-- for each loops  -->
 
-<?php
 
   $arr = array("mango","banana","apple","guava");
 
