@@ -20,6 +20,13 @@ echo $a *= 5; echo "<br>";
 echo $a /= 5; echo "<br>";
 echo $a %= 5; echo "<br>";
 
+$x = 10;                    
+echo $x;echo "<br>";          //x = 10 
+echo $x++;echo "<br>";        //x = 10   
+echo ++$x;echo "<br>";        //x = 12 
+echo $x--;echo "<br>";        //x = 12
+echo --$x;echo "<br>";        //x = 10
+
 // comparison operator 
 $a=10;
 $b = 5;
