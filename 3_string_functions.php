@@ -4,6 +4,14 @@
 echo "I am " . "vaibhav";
 echo "<br>";
 
+
+//indexing in strings
+$state = 'maharashtra';
+echo $state[1];echo "<br>";
+echo $state[4];echo "<br>";
+echo $state[7];echo "<br>";
+
+
 // strlen is used to find the lenght of the string 
 $name = "vaibhav";
 echo strlen($name);
