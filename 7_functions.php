@@ -5,9 +5,7 @@ function summ($a,$b){
     echo "<br>";
 }
 summ(10,20);
-?>
 
-<?php
 
 function process_marks($marks){
     $sum=0;
