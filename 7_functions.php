@@ -14,8 +14,8 @@ function process_marks($marks){
     }
     return $sum;
 }
-$vaibhav_marks = process_marks([34,65,787,34,65,505]);
+$total_marks = process_marks([34,65,787,34,65,505]);
 
-echo $vaibhav_marks
+echo $total_marks
 
 ?>
